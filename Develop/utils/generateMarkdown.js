@@ -118,7 +118,6 @@ function generateMarkdown(userResponses, userInfo) {
   For any questions, please contact me with the information below:
  
   GitHub: [@${userInfo.login}](${userInfo.url})
-
   `;
 
   // If GitHub email is not null, add to Developer section

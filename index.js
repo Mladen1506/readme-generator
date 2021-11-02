@@ -104,6 +104,7 @@ async function init() {
         // Call GitHub api for user info
         const userInfo = await api.getUser(userResponses);
         console.log("Your GitHub user info: ", userInfo);
+        console.log()
     
         // Pass Inquirer userResponses and GitHub userInfo to generateMarkdown
         console.log("Generating your README next...")
